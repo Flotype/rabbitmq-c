@@ -4,7 +4,7 @@ set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
 # Stuff dealing with code generation
 set(AMQP_CODEGEN_PY "${CMAKE_CURRENT_BINARY_DIR}/amqp_codegen.py")
-set(CODEGEN_PY "${CMAKE_CURRENT_BINARY_DIR}/codegen.py")
+set(CODEGEN_PY "${CMAKE_CURRENT_BINARY_DIR}/codegen.bld.py")
 set(AMQP_SPEC_JSON_PATH "${AMQP_CODEGEN_DIR}/amqp-rabbitmq-0.9.1.json")
 
 #generate amqp_framing.h/amqp_framing.c

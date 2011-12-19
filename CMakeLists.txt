@@ -45,7 +45,7 @@ else (FETCH_CODEGEN_FROM_GIT)
     find_path(RABBITMQ_CODEGEN_DIR
         amqp_codegen.py
         PATHS ${CMAKE_SOURCE_DIR}/rabbitmq-codegen 
-              ${CMAKE_SOURCE_DIR}/../rabbitmq-codegen
+              ${CMAKE_CURRENT_SOURCE_DIR}/../rabbitmq-codegen
         DOC "Path to directory containing amqp_codegen.py (rabbitmq-codegen)"
         NO_DEFAULT_PATH
         )
